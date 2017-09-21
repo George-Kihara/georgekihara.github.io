@@ -90,3 +90,7 @@
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+#logo #image  {
+  border-radius: 60px;
+}
