@@ -66,19 +66,22 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   new Typed('#typed5', {
-    strings: ['1 Some <i>strings</i> with', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
-    typeSpeed: 0,
-    backSpeed: 0,
+    strings: ['if you wish to contact me', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
+    typeSpeed: 300,
+    backSpeed: 400,
     shuffle: true,
+    startDelay: 1000,
     cursorChar: '_',
-    smartBackspace: false,
-    loop: true
+    smartBackspace: true,
+    loop: true,
+    loopCount: Infinity
   });
 
   new Typed('#typed6', {
     strings: ['npm install^1000\n`installing components...` ^1000\n`Fetching from source...`'],
     typeSpeed: 40,
-    backSpeed: 0,
+    backSpeed: 100,
+    startDelay: 1000,
     loop: true
   });
 });
