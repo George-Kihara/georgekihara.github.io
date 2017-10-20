@@ -120,3 +120,7 @@
   border: solid black 3px;
   border-radius: 50px; 
 }
+.type-wrap{
+  overflow: scroll;
+  overflow-y: hidden;
+}
