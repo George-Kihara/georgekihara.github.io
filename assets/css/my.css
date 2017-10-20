@@ -111,10 +111,12 @@
 }
 
 #center{
-  position: absolute;
-  left: 16%;
-  top: 45%;
+  position: relative;
+  margin-right: 16%;
+  margin-top: 15%;
   width: 200px;
+  height: 200px;
+  overflow: hidden;
   border: solid black 3px;
   border-radius: 50px; 
 }
