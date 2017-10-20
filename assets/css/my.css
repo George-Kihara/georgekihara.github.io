@@ -109,3 +109,12 @@
   background: #084461;
   color: #fff;
 }
+
+#center{
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  width: 200px;
+  border: solid black 3px;
+  border-radius: 50px; 
+}
