@@ -20,11 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   var typed2 = new Typed('#typed2', {
-    strings: ['Mobile No: +254 713220636 <br> Email: gegohcomp@gmail.com'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    fadeOut: false,
-    loop: 1
+    strings: ['Mobile No: +254 713220636 <br> Email: gegohcomp@gmail.com']
   });
 
   
